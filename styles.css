@@ -74,3 +74,14 @@ textarea{min-height:120px;resize:vertical}
 .footer{border-top:1px solid var(--border);background:#fff}
 .footer-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:26px 0}
 .right{text-align:right}
+
+/* Logos */
+.logos{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:24px;align-items:center;margin-top:18px}
+.logos img{max-width:100%;opacity:.8;transition:.2s}
+.logos img:hover{opacity:1}
+
+/* Testimonials */
+.testimonials .card{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.testimonials .avatar{width:56px;height:56px;border-radius:50%;object-fit:cover}
+.testimonials .name{font-weight:700;color:var(--primary)}
+.testimonials .role{font-size:14px;color:var(--muted)}
